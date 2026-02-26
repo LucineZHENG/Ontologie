@@ -21,13 +21,11 @@ Outils  : Protégé · Python (rdflib) · SPARQL
 
 Structure du projet
 ------------------
-.
-├── Ontologie_de_nouilles.rdf           # Fichier OWL/RDF (export Protégé)
-├── Requetes_Sparql_en_python.ipynb     # Requêtes SPARQL (Jupyter Notebook)
-├── Exemple_d_utilisation.pdf           # Documentation des requêtes
-├── Rapport_final.pdf                   # Rapport complet du projet
-└── README.txt
-
+- Ontologie_de_nouilles.rdf           # Fichier OWL/RDF (export Protégé)
+- Requetes_Sparql_en_python.ipynb     # Requêtes SPARQL (Jupyter Notebook)
+- Exemple_d_utilisation.pdf           # Documentation des requêtes
+- Rapport_final.pdf                   # Rapport complet du projet
+- README.txt
 -----------------------------------------------------
 
 Aperçu de l'ontologie
