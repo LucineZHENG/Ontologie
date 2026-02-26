@@ -1,0 +1,1252 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/"
+     xml:base="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-7="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_allergie_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_allergie_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Allergie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_ingredient_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_ingredient_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Ingrédients"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_nutrition_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_nutrition_de">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nutritions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#est_servi_avec -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#est_servi_avec">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Accompagnements"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_base_de_soupe -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_base_de_soupe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_facon_de_fabrication -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_facon_de_fabrication"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_methode_de_cuisson -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_methode_de_cuisson">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_saveur_de -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_saveur_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#est_riche_en_proteines -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#est_riche_en_proteines">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#est_sans_gluten -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#est_sans_gluten">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#est_vegetarien -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#est_vegetarien">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/a_origine_de -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/a_origine_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/contient_des_calories -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/contient_des_calories">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Farine_gluten -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Farine_gluten">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Farine"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_sans_gluten"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Farine_sans_gluten -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Farine_sans_gluten">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Farine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Nouilles_riche_en_calories -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Nouilles_riche_en_calories">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/contient_des_calories"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">501</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Nouilles_saveur_lourd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Nouilles_saveur_lourd">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_saveur_de"/>
+                        <owl:hasValue>pimenté</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_saveur_de"/>
+                        <owl:hasValue>salé</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Accompagnements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Accompagnements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_sans_gluten -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_sans_gluten">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#est_sans_gluten"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Restrictions_de_diète"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_végétariens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_végétariens">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#est_vegetarien"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Restrictions_de_diète"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Fruits_de_mer"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Viande"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Allergie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Allergie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Valeurs_nutritives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Farine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Farine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Ingrédients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Façons_de_cuisine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Façons_de_cuisine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Façons_de_fabrication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Façons_de_fabrication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Food"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Fruits_de_mer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Fruits_de_mer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Accompagnements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Fécule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Fécule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Ingrédients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Ingrédients -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Ingrédients">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Légumes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Légumes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Accompagnements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Food"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_saveur_de"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>acide</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>pimenté</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>salé</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>sucré</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_methode_de_cuisson"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>bouillir</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>mélanger</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>sauter</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/a_origine_de"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Chine</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Coréen</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>Japon</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>Vietnam</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_faites_maison -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_faites_maison">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#a_facon_de_fabrication"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>à la maison</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Façons_de_fabrication"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_faites_à_la_machine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_faites_à_la_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_faites_à_la_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Façons_de_fabrication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sautées -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sautées">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Façons_de_cuisine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sèches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sèches">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Façons_de_cuisine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nutritions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nutritions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Valeurs_nutritives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Restrictions_de_diète -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Restrictions_de_diète">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Soupe_de_nouilles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Soupe_de_nouilles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Façons_de_cuisine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Valeurs_nutritives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Valeurs_nutritives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Viande -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Viande">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Accompagnements"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Abura_soba -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Abura_soba">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_sans_gluten"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sèches"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Oeuf"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Sarrasin"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Chou"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Porc"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Japon</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Boeuf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Boeuf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Viande"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Matières_grasses"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Protéines"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Allergie"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Légumes"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Fibres_alimentaires"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Chou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Chou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Légumes"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Fibres_alimentaires"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Concombre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Concombre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Légumes"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Fibres_alimentaires"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Crevette -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Crevette">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Allergie"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Fruits_de_mer"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Protéines"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Fibres_alimentaires -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Fibres_alimentaires">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nutritions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Glucides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Glucides">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nutritions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Guoqiao_nouilles_de_riz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Guoqiao_nouilles_de_riz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_sans_gluten"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Soupe_de_nouilles"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Riz"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Chou"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Porc"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>bouillir</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Chine</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">530</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Matières_grasses -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Matières_grasses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nutritions"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Matières_grasses"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Miso_ramen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Miso_ramen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_faites_maison"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Soupe_de_nouilles"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Piment"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Poireau"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Porc"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>bouillir</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Japon</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">550</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Nanegmyeon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Nanegmyeon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_sans_gluten"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sèches"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Oeuf"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Sarrasin"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Concombre"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Porc"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>mélanger</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>pimenté</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Coréen</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">318</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#NouillesBiangBiang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#NouillesBiangBiang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_faites_maison"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sèches"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Oeuf"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Porc"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>bouillir</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>pimenté</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Chine</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">700</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Oeuf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Oeuf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Allergie"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Matières_grasses"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Protéines"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Piment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Piment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Légumes"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Fibres_alimentaires"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Poireau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Poireau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Légumes"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Fibres_alimentaires"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Pomme_de_terre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Pomme_de_terre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Légumes"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Glucides"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Porc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Porc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Viande"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Matières_grasses"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Protéines"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Poulet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Poulet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Viande"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Matières_grasses"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Protéines"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Protéines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Protéines">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nutritions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Tomate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Tomate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Légumes"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Fibres_alimentaires"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Tonkotsu_ramen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Tonkotsu_ramen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Soupe_de_nouilles"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Piment"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Poireau"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Porc"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>bouillir</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>pimenté</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Japon</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">900</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Bibim_guksu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Bibim_guksu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_végétariens"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sèches"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Oeuf"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Germes_de_soja"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Concombre"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Piment"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Germes_de_soja"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la machine</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>mélanger</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>pimenté</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:a_saveur_de>sucré</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Coréen</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Farine_gluten"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Allergie"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Glucides"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Buldak_Hot_Chicken_Soup_Ramyun -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Buldak_Hot_Chicken_Soup_Ramyun">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_faites_à_la_machine"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la machine</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>mélanger</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>pimenté</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Coréen</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">566</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Germes_de_soja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Germes_de_soja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Allergie"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Légumes"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Glucides"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Protéines"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Gomguksu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Gomguksu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_faites_maison"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Soupe_de_nouilles"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Germes_de_soja"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Concombre"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Tomate"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Germes_de_soja"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>bouillir</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Coréen</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">420</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Hakata_Udon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Hakata_Udon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Soupe_de_nouilles"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Crevette"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Crevette"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>bouillir</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Japon</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Japchae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Japchae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sèches"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Patate_douce"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Chou"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Piment"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Porc"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>sauter</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Coréen</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">373</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_Yangchun -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_Yangchun">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_végétariens"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Soupe_de_nouilles"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Chou"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>bouillir</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Chine</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_au_bœuf_de_Lanzhou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_au_bœuf_de_Lanzhou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_faites_maison"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Soupe_de_nouilles"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Boeuf"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Poireau"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>bouillir</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Chine</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">650</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_saozi_de_Qishan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_saozi_de_Qishan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Soupe_de_nouilles"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Pomme_de_terre"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Porc"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>bouillir</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>acide</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Chine</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">640</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sautées_Ding_Ding_du_Xinjiang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sautées_Ding_Ding_du_Xinjiang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_faites_maison"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sautées"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Boeuf"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Pomme_de_terre"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>sauter</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Chine</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sautées_de_Shanghai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sautées_de_Shanghai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sautées"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Oeuf"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Oeuf"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>sauter</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Chine</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">830</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sèches_de_Wuhan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sèches_de_Wuhan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_végétariens"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sèches"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Poireau"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>mélanger</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Chine</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">800</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_youpo_du_Shaanxi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_youpo_du_Shaanxi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_végétariens"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sèches"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Chou"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Piment"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Poireau"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>mélanger</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>pimenté</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Chine</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_zhajiang_de_Pékin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_zhajiang_de_Pékin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sèches"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Carrote"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Concombre"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Porc"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>mélanger</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:a_saveur_de>sucré</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Chine</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">775</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Patate_douce -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Patate_douce">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Fécule"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Fibres_alimentaires"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Glucides"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Phô -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Phô">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_sans_gluten"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Soupe_de_nouilles"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Riz"/>
+        <untitled-ontology-7:est_servi_avec rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Boeuf"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la maison</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>bouillir</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Chine</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Riz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Riz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Fécule"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Glucides"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Sarrasin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Sarrasin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Farine_sans_gluten"/>
+        <untitled-ontology-7:a_nutrition_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7#Glucides"/>
+        <untitled-ontology-7:est_riche_en_proteines rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_riche_en_proteines>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Shin_Ramyun -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Shin_Ramyun">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Aliments_végétariens"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_faites_à_la_machine"/>
+        <untitled-ontology-7:a_allergie_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_ingredient_de rdf:resource="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Blé"/>
+        <untitled-ontology-7:a_base_de_soupe rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:a_base_de_soupe>
+        <untitled-ontology-7:a_facon_de_fabrication>à la machine</untitled-ontology-7:a_facon_de_fabrication>
+        <untitled-ontology-7:a_methode_de_cuisson>bouillir</untitled-ontology-7:a_methode_de_cuisson>
+        <untitled-ontology-7:a_saveur_de>pimenté</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:a_saveur_de>salé</untitled-ontology-7:a_saveur_de>
+        <untitled-ontology-7:est_sans_gluten rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-7:est_sans_gluten>
+        <untitled-ontology-7:est_vegetarien rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-7:est_vegetarien>
+        <a_origine_de>Coréen</a_origine_de>
+        <contient_des_calories rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">506</contient_des_calories>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Accompagnements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Ingrédients"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sautées"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Nouilles_sèches"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zhengruixing/ontologies/2025/2/untitled-ontology-7/Soupe_de_nouilles"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
